@@ -1,0 +1,8 @@
+{
+  "name": "legal_knowledge_index",
+  "fields": [
+    {"name": "content", "type": "Edm.String"},
+    {"name": "document_name", "type": "Edm.String"},
+    {"name": "embedding", "type": "Collection(Edm.Single)"}
+  ]
+}
